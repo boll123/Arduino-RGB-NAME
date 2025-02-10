@@ -1,0 +1,80 @@
+body {
+    background: linear-gradient(to right, rgba(255, 0, 0, 0.8), rgba(255, 185, 80, 0.2));
+    font-family: Arial, sans-serif;
+}
+
+.top {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    gap: 8px;
+    border: 3px solid #343434;
+    background: linear-gradient(#ffa9a9, rgb(255, 217, 145));
+    width: 500px;
+    height: calc(100vh - 80px);
+    position: absolute;
+    left: 35%;
+    border-radius: 40px;
+    padding: 12px;
+}
+
+.top button {
+    position: absolute;
+    left: 38%;
+    top: 80px;
+    background: #280119;
+    border: 3px solid #4f4f4f;
+    border-radius: 30px;
+    color: white;
+    cursor: pointer;
+}
+
+.top button:hover {
+    background: #5c5c5c;
+}
+
+.Status {
+    position: absolute;
+    top: 130px;
+    left: 40%;
+    font-size: 18px;
+}
+
+.sm p {
+    position: absolute;
+    top: 34%;
+    left: 23%;
+    font-size: 200px;
+}
+
+.rgb-values {
+    gap: 500px;
+    position: absolute;
+    top: 180px;
+    left: 15%;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.color-box {
+    position: absolute;
+    top: 190px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 150px;
+    height: 200px;
+    border: 3px solid #000;
+    background-color: white; 
+    border-radius: 10px;
+}
+
+.nameadress {
+    position: absolute;
+    top: 56%;
+    left: 25%;
+    font-size: 18px;
+
+}

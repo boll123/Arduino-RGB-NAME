@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Arduino RGB Monitor</title>
+</head>
+<body>
+    <div class="top">
+        <h1>Arduino RGB Monitor</h1>
+        <div class="center">
+            <button id="connectButton">
+                <p>Connect to Arduino</p>
+            </button>
+        </div>
+        <div class="Status">
+            <p id="statusText">ไม่ได้เชื่อมต่อ</p>
+        </div>
+        <div class="sm">
+            <p id="statusEimoji">❤️</p>
+        </div>
+        <div class="rgb-values">
+            <p>R: <span id="rValue">-</span></p>
+            <p>G: <span id="gValue">-</span></p>
+            <p>B: <span id="bValue">-</span></p>
+        </div>
+        <div class="color-box" id="colorBox"></div>
+        <div class="nameadress"> 
+            <p id="nameText">Name: </p>
+            <p id="addressText">Address: </p>
+        </div> 
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
